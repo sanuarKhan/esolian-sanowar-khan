@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/esolian-sanowar-khan/static/css/main.5933181c.css",
+    "main.js": "/esolian-sanowar-khan/static/js/main.af346df9.js",
+    "static/js/787.d8c47fce.chunk.js": "/esolian-sanowar-khan/static/js/787.d8c47fce.chunk.js",
+    "static/media/me1.png": "/esolian-sanowar-khan/static/media/me1.b2ac4ec61bfc424e0932.png",
+    "static/media/me3.png": "/esolian-sanowar-khan/static/media/me3.8a131213734cbe2477da.png",
+    "index.html": "/esolian-sanowar-khan/index.html",
+    "main.5933181c.css.map": "/esolian-sanowar-khan/static/css/main.5933181c.css.map",
+    "main.af346df9.js.map": "/esolian-sanowar-khan/static/js/main.af346df9.js.map",
+    "787.d8c47fce.chunk.js.map": "/esolian-sanowar-khan/static/js/787.d8c47fce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5933181c.css",
+    "static/js/main.af346df9.js"
+  ]
+}
