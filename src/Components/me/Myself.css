@@ -1,0 +1,105 @@
+#ami{
+    width: 300px;
+    height: 460px;
+    background: #49f3ace3;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    box-shadow: 1px 0px 20px 12px #f8f8f8db;
+}
+#ami::after{
+    content: "";
+    width: 250px;
+    height: 250px;
+    background: repeating-radial-gradient( circle, transparent, transparent 3em, rgba(100, 240, 112, 0.658) 1em, transparent 6em, rgb(252, 170, 62) 6.5em ), repeating-radial-gradient( ellipse farthest-corner, transparent 1em, rgba(13, 240, 134, 0.884) 1em, transparent 5em, rgba(247, 26, 217, 0.808) 2em ), repeating-radial-gradient( circle, transparent, transparent 3em, rgba(17, 199, 231, 0.692) 1em, transparent 2em, rgb(5, 253, 117) 4em ), repeating-radial-gradient( circle, transparent 3em, rgb(17, 241, 174) 1em, transparent 2em, rgb(37, 93, 248) 4em ), rgba(230, 228, 245, 0.973);
+    background-blend-mode: multiply;
+    background-size: 10em 10em;
+    background-position: 0 0, 5em 5em, 15em 50em;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -73px;
+    left: 25px;
+    z-index: -3;
+    box-shadow: 1px 19px 14px 4px #98d5cc;
+
+}
+#ami::before{
+    content: "";
+    width: 130px;
+    height: 100px;
+    background: #3428e5d9;
+    border-radius: 61%;
+    display: block;
+    position: absolute;
+    top: -68px;
+    left: 213px;
+    z-index: -1;
+}
+#ami img{
+    width: 220px;
+    z-index: 33;
+    margin: -56px 0 0 40px;
+}
+.into{
+    padding: 20px;
+    margin: 18px auto;
+    width: 233px;
+    height: 180px;
+    text-align: center;
+    background: #f9fffdab;
+    box-shadow: 1px 1px 12px 8px cyan
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+
+.into h1 {
+  position: relative;
+  font-family: 'Exo';
+  font-size: 3em;
+  margin: 0;
+  transform: skew(-15deg);
+  letter-spacing: 0.03em;
+}
+.into h1::after {
+    content: '';
+    position: absolute;
+    top: -0.1em;
+    right: 0.05em;
+    width: 0.4em;
+    height: 0.4em;
+    background: 
+      radial-gradient(white 3%, rgba(white, 0.3) 15%, rgba(white, 0.05) 60%, transparent 80%),
+      radial-gradient(rgba(white, 0.2) 50%, transparent 60%) 50% 50% / 5% 100%,
+      radial-gradient(rgba(white, 0.2) 50%, transparent 60%) 50% 50% / 70% 5%;
+    background-repeat: no-repeat;
+  }
+  
+  .into span:first-child {
+    display: block;
+    text-shadow: 0 0 0.1em #8ba2d0, 0 0 0.2em black,  0 0 5em #165ff3;
+    -webkit-text-stroke: 0.06em rgba(black, 0.5);
+  }
+  
+  .into span:last-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(#032d50 25%, #00a1ef 35%, white 50%, #20125f 50%, #8313e7 55%, #ff61af 75%);
+    -webkit-text-stroke: 0.01em #94a0b9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.into h2 {
+  font-family: 'Mr Dafoe';
+  margin: 5px;
+  font-size: 2.5em;
+  margin-top: -0.6em;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  transform: rotate(-4deg);
+}

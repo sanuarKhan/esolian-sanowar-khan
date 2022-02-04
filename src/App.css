@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
+body{
+	text-transform: uppercase;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    background:
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 3em,
+		rgba(100, 240, 112, 0.658) 1em,
+			transparent 6em,
+		rgb(252, 170, 62) 6.5em
+	),
+	repeating-radial-gradient(
+		ellipse farthest-corner,
+		transparent 1em,
+		rgba(13, 240, 134, 0.884) 1em,
+		 	transparent 5em,
+		rgba(247, 26, 217, 0.808) 2em
+	),
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 3em,
+		rgba(17, 199, 231, 0.692) 1em,
+			transparent 2em,
+		rgb(5, 253, 117) 4em
+	),
+	repeating-radial-gradient(
+		circle,
+		transparent 3em,
+		rgb(17, 241, 174) 1em,
+			transparent 2em,
+		rgb(37, 93, 248) 4em
+	), rgba(230, 228, 245, 0.973);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+background-blend-mode: multiply;
+background-size: 10em 10em;
+background-position: 0 0, 5em 5em, 15em 50em;
+display: inline;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
